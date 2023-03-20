@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 import numpy as nm  
 import matplotlib.pyplot as mtp  
 import pandas as pd  
@@ -31,6 +25,7 @@ mtp.ylabel("Salary(In Rupees)")
 mtp.show()   
 
 mtp.scatter(x_test, y_test, color="blue")   
+
 mtp.plot(x_train, x_pred, color="red")    
 mtp.title("Salary vs Experience (Test Dataset)")  
 mtp.xlabel("Years of Experience")  
